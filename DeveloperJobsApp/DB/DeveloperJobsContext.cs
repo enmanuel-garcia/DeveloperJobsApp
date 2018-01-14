@@ -23,5 +23,13 @@ namespace DeveloperJobsApp.DB
         {
             base.OnModelCreating(modelBuilder);
         }
+
+        public DbSet<DeveloperJobsApp.Models.CompanyAddress> CompanyAddress { get; set; }
+
+        public DbSet<DeveloperJobsApp.Models.Industry> Industry { get; set; }
+
+        public DbSet<DeveloperJobsApp.Models.JobType> JobType { get; set; }
+
+        public DbSet<DeveloperJobsApp.Models.CompanyType> CompanyType { get; set; }
     }
 }
