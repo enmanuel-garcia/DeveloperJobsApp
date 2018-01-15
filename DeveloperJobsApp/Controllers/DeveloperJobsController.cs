@@ -91,6 +91,9 @@ namespace DeveloperJobsApp.Controllers
                 return BadRequest(ModelState);
             }
 
+            developerJob.IsActive = true;
+            developerJob.CreatedDate = DateTime.Now;
+
             _context.DeveloperJobs.Add(developerJob);
             await _context.SaveChangesAsync();
 

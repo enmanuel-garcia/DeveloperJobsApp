@@ -23,7 +23,7 @@ namespace DeveloperJobsApp.Models
         public CompanyType CompanyType { get; set; }
         public int CompanyTypeId { get; set; }
         public string JobDescription { get; set; }
-        public string IsActive { get; set; }
+        public bool IsActive { get; set; }
         public DateTime? CreatedDate { get; set; }
         public DateTime? DeactivatedDate { get; set; }
     }

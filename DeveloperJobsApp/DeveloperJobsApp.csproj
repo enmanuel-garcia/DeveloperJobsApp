@@ -26,9 +26,13 @@
     <None Remove="ClientApp\app\components\addJob\addJob.component.html" />
     <None Remove="ClientApp\app\components\addJob\addJob.component.ts" />
     <None Remove="ClientApp\app\jobsRoutes\jobsRoutes.ts" />
+    <None Remove="ClientApp\app\models\companyAddress.ts" />
     <None Remove="ClientApp\app\models\CompanyType.ts" />
+    <None Remove="ClientApp\app\models\developerJob.ts" />
     <None Remove="ClientApp\app\models\industryType.ts" />
     <None Remove="ClientApp\app\models\jobType.ts" />
+    <None Remove="ClientApp\app\resources\countries.ts" />
+    <None Remove="ClientApp\app\resources\USStates.ts" />
     <None Remove="ClientApp\app\services\developerJobs.dataservice.ts" />
   </ItemGroup>
 
@@ -37,9 +41,13 @@
     <TypeScriptCompile Include="ClientApp\app\components\addJob\addJob.component.css" />
     <TypeScriptCompile Include="ClientApp\app\components\addJob\addJob.component.ts" />
     <TypeScriptCompile Include="ClientApp\app\jobsRoutes\jobsRoutes.ts" />
+    <TypeScriptCompile Include="ClientApp\app\models\companyAddress.ts" />
     <TypeScriptCompile Include="ClientApp\app\models\companyType.ts" />
+    <TypeScriptCompile Include="ClientApp\app\models\developerJob.ts" />
     <TypeScriptCompile Include="ClientApp\app\models\industryType.ts" />
     <TypeScriptCompile Include="ClientApp\app\models\jobType.ts" />
+    <TypeScriptCompile Include="ClientApp\app\resources\countries.ts" />
+    <TypeScriptCompile Include="ClientApp\app\resources\usStates.ts" />
     <TypeScriptCompile Include="ClientApp\app\services\developerJobs.dataservice.ts" />
   </ItemGroup>
 
